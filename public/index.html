@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test WebGL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<h1>test2</h1>
+	
+	<!--<iframe allowfullscreen src="examples/panorama_image.html"></iframe>-->
+
+
+	<script src="three.min.js"></script>
+	<script src="panolens.min.js"></script>
+
+	<script>
+
+	    var panorama, viewer;
+
+	    panorama = new PANOLENS.VideoPanorama( 'res/pano.mp4' );
+
+	    viewer = new PANOLENS.Viewer();
+	    viewer.add( panorama );
+
+	</script>
+</body>
+</html>

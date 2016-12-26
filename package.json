@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "description": "Test Server",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "serve": "NODE_PATH=. node src/server"
+  }
+}
